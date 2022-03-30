@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+footer > img {
+  transform: scale(0.8);
+  cursor: pointer;
+}

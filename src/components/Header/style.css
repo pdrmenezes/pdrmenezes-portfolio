@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 5px 30px;
+}
+
+header > a {
+  text-decoration: none;
+  font-family: "Space Mono", monospace;
+  font-size: 1.4rem;
+  color: black;
+}
+header > p {
+  font-family: "Space Mono", monospace;
+  font-size: 1.4rem;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.item-menu {
+  margin: 0 0.8rem;
+  padding: 0.4rem 1.6rem;
+  border: 1px black solid;
+  border-radius: 12px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.item-menu:hover {
+  color: white;
+  background-color: black;
+}

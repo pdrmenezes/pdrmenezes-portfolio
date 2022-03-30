@@ -1,0 +1,82 @@
+.projects-title {
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+
+.projects-title-text {
+  text-align: left;
+  margin: 1rem 3rem 0 3rem;
+  font-family: "Francois One", sans-serif;
+  line-height: 110%;
+  font-size: 5rem;
+}
+
+.projects-arrow {
+  margin: 3rem;
+  transform: rotate(180deg);
+  width: 80px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Space Mono", monospace;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.project-item-list-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 30px 50px;
+}
+
+.project-item-list-left > img {
+  width: 60vw;
+}
+
+.project-item-list-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 30px 50px;
+}
+
+.project-item-list-right > img {
+  width: 60vw;
+}
+
+.project-description {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.4rem;
+}
+
+.project-title {
+  font: weight 300;
+}
+
+.projects-more {
+  padding: 0.4rem 1.6rem;
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  border-radius: 12px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.projects-more:hover {
+  color: white;
+  background-color: black;
+}

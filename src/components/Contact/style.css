@@ -1,0 +1,72 @@
+.contact {
+  text-align: start;
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+
+.contact-title-text {
+  text-align: left;
+  font-family: "Francois One", sans-serif;
+  line-height: 110%;
+  font-size: 5rem;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-inline-start: 2rem;
+  text-align: start;
+  font-family: "Space mono", monospace;
+  font-size: 1.2rem;
+}
+
+.your-turn {
+  font-weight: normal;
+}
+
+.row-1 {
+  grid-template-columns: repeat(3, 1fr);
+  line-height: 100%;
+}
+
+.email > p:first-child {
+  text-decoration: underline;
+}
+
+.email > p:nth-child(2) {
+  cursor: pointer;
+}
+
+.email > p:nth-child(3) {
+  font-size: 1rem;
+}
+
+.instagram > p:first-child {
+  text-decoration: underline;
+}
+
+.instagram > a {
+  text-decoration: none;
+  color: black;
+}
+
+.github > p:first-child {
+  text-decoration: underline;
+}
+
+.github > a {
+  text-decoration: none;
+  color: black;
+}
+
+.row-2 {
+  grid-template-columns: repeat(3, 1fr);
+  line-height: 100%;
+}
+
+.projects-arrow {
+  margin: 3rem;
+  transform: rotate(180deg);
+  width: 80px;
+}
