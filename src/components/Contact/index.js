@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./style.css"
-// import up_arrow from "../../assets/up-arrow.png"
 
 export default function Contact() {
 

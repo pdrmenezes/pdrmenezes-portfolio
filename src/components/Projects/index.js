@@ -13,7 +13,7 @@ export default function Projects() {
       <ul className="projects-list">
         {data.map(({ id, image, name, link }) => {
           return (
-            <li className={id % 2 == 0 ? "project-item-list-right" : "project-item-list-left"
+            <li className={id % 2 === 0 ? "project-item-list-right" : "project-item-list-left"
             }>
               <img src={image} alt={name} />
               <div className="project-description">

@@ -1,3 +1,5 @@
+@import "../../index.css";
+
 header {
   display: flex;
   justify-content: space-between;
@@ -8,13 +10,10 @@ header {
 
 header > a {
   text-decoration: none;
-  font-family: "Space Mono", monospace;
+  font-family: var(--ff-ibm-plex-mono);
+  font-weight: 400;
   font-size: 1.4rem;
   color: black;
-}
-header > p {
-  font-family: "Space Mono", monospace;
-  font-size: 1.4rem;
 }
 
 .menu {
@@ -27,8 +26,8 @@ header > p {
   padding: 0.4rem 1.6rem;
   border: 1px black solid;
   border-radius: 12px;
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
+  font-family: var(--ff-ibm-plex-mono);
+  font-weight: 600;
   cursor: pointer;
   transition: all ease 0.3s;
 }
